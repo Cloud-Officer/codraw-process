@@ -5,5 +5,5 @@ Additional features for the symfony/process component, notably a ProcessFactory 
 ## Installation
 
 ```bash
-composer require codraw/
+composer require codraw/process
 ```
