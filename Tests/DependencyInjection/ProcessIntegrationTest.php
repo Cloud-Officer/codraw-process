@@ -2,7 +2,6 @@
 
 namespace Draw\Component\Process\Tests\DependencyInjection;
 
-use Draw\Component\Console\DependencyInjection\ConsoleIntegration;
 use Draw\Component\DependencyInjection\Integration\IntegrationInterface;
 use Draw\Component\DependencyInjection\Integration\Test\IntegrationTestCase;
 use Draw\Component\DependencyInjection\Integration\Test\ServiceConfiguration;
@@ -12,7 +11,7 @@ use Draw\Contracts\Process\ProcessFactoryInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 /**
- * @property ConsoleIntegration $integration
+ * @property ProcessIntegration $integration
  *
  * @internal
  */
