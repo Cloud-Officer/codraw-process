@@ -16,7 +16,7 @@
     ],
     "require": {
         "codraw/contracts": "^0.39",
-        "symfony/process": "^6.4.0"
+        "symfony/process": "^7.4.0"
     },
     "require-dev": {
         "codraw/dependency-injection": "^0.39",
@@ -35,6 +35,6 @@
         }
     },
     "replace": {
-        "draw/process": "self.version"
+        "codraw/process": "self.version"
     }
 }
