@@ -35,6 +35,6 @@
         }
     },
     "replace": {
-        "codraw/process": "self.version"
+        "draw/process": "self.version"
     }
 }
